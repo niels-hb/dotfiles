@@ -77,6 +77,7 @@ plugins=(
   zsh-history-substring-search
   zsh-syntax-highlighting
   fzf
+  kubectl
 )
 source $ZSH/oh-my-zsh.sh
 
