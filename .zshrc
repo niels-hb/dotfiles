@@ -110,6 +110,5 @@ fi
 
 alias vi=nvim
 alias vim=nvim
-alias docker=podman
 
 source ~/.zshrc.local
