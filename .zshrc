@@ -78,6 +78,7 @@ plugins=(
   zsh-syntax-highlighting
   fzf
   kubectl
+  helm
 )
 source $ZSH/oh-my-zsh.sh
 
