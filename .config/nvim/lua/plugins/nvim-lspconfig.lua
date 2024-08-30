@@ -18,6 +18,7 @@ return {
         map('gd', require('telescope.builtin').lsp_definitions, '[G]oto [D]efinition')
         map('gr', require('telescope.builtin').lsp_references, '[G]oto [R]eferences')
         map('K', vim.lsp.buf.hover, 'Hover Documentation')
+        map('<leader>ca', vim.lsp.buf.code_action, 'Open [C]ode [A]ctions')
       end,
     })
 
