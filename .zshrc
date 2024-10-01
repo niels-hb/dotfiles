@@ -110,4 +110,6 @@ fi
 alias vi=nvim
 alias vim=nvim
 
+eval "$(devbox global shellenv)"
+
 source ~/.zshrc.local
