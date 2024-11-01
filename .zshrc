@@ -1,3 +1,6 @@
+# Must be first so Devbox can set up the shell environment for omz plugins to use
+eval "$(devbox global shellenv)"
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
@@ -108,7 +111,5 @@ fi
 
 alias vi=nvim
 alias vim=nvim
-
-eval "$(devbox global shellenv)"
 
 source ~/.zshrc.local
