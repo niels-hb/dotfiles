@@ -77,6 +77,4 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,macos,windows
 
-.zshrc.local
-.tmux.conf.local
 .config/nvim/lazy-lock.json

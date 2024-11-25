@@ -1,0 +1,37 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = true
+
+format = """
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status\
+$fill\
+$kubernetes\
+$aws
+$character"""
+
+[aws]
+disabled = false
+symbol = ' '
+format = '[$symbol$profile]($style) '
+
+[git_branch]
+disabled = false
+symbol = " "
+
+[git_commit]
+disabled = false
+tag_symbol = '  '
+
+[fill]
+disabled = false
+symbol = ' '
+
+[kubernetes]
+disabled = false
+symbol = '⛵ '
+format = '[$symbol$cluster/$namespace](dimmed green) '
