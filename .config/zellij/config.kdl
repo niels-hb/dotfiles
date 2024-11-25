@@ -227,3 +227,5 @@ plugins {
 default_mode "locked"
 
 mouse_mode false
+
+theme "tokyo-night"
