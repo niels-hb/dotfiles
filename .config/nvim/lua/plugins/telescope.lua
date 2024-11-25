@@ -10,7 +10,8 @@ return {
   tag = '0.1.6',
   dependencies = {
     'nvim-lua/plenary.nvim',
-    'nvim-telescope/telescope-ui-select.nvim'
+    'nvim-telescope/telescope-ui-select.nvim',
+    'nvim-tree/nvim-web-devicons'
   },
   config = function()
     require('telescope').setup({
