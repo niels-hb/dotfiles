@@ -28,7 +28,17 @@ keybinds clear-defaults=true {
             }
             SwitchToMode "locked"
         }
+        bind "[" { SwitchToMode "scroll"; }
         bind "Ctrl b" { SwitchToMode "locked"; }
+    }
+    scroll {
+        bind "j" { ScrollDown; }
+        bind "k" { ScrollUp; }
+        bind "}" { HalfPageScrollDown; }
+        bind "{" { HalfPageScrollUp; }
+        bind "G" { ScrollToBottom; }
+        bind "g" { ScrollToTop; }
+        bind "q" { SwitchToMode "locked"; }
     }
 }
 
