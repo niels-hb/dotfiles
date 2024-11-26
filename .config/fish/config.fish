@@ -7,6 +7,7 @@ if status is-interactive
 end
 
 set -U fish_greeting
+set -U devbox_no_prompt true
 set -Ux EDITOR nvim
 
 alias vi=nvim
