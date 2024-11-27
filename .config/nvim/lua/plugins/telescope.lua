@@ -29,34 +29,6 @@ return {
         },
         layout_strategy = "vertical",
         layout_config = custom_layout_config,
-        mappings = {
-          n = {
-            ["<leader>a"] = function(prompt_bufnr)
-              local actions = require('telescope.actions')
-              local action_state = require('telescope.actions.state')
-              local harpoon = require('harpoon')
-
-              local picker = action_state.get_current_picker(prompt_bufnr)
-              local multi_selection = picker:get_multi_selection()
-
-              if #multi_selection <= 1 then
-                return
-              end
-
-              for _, entry in ipairs(multi_selection) do
-                harpoon:list():add({
-                  value = entry.filename,
-                  context = {
-                    col = 0,
-                    row = 1
-                  }
-                })
-              end
-
-              actions.close(prompt_bufnr)
-            end
-          }
-        }
       },
       pickers = {
         find_files = {

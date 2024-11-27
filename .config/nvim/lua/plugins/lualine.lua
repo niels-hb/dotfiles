@@ -2,7 +2,7 @@ return {
   'nvim-lualine/lualine.nvim',
   opts = {
     options = {
-      icons_enabled = false
+      icons_enabled = true
     },
     sections = {
       lualine_a = { 'mode' },
@@ -10,7 +10,7 @@ return {
       lualine_c = { 'filename' },
       lualine_x = {},
       lualine_y = {},
-      lualine_z = {}
+      lualine_z = { 'buffers' }
     }
   }
 }
