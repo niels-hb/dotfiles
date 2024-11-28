@@ -59,6 +59,7 @@ plugins {
 }
 
 default_mode "locked"
+default_layout "custom"
 
 mouse_mode false
 
