@@ -6,6 +6,10 @@ if status is-interactive
     eval (zellij setup --generate-auto-start fish | string collect)
 end
 
+function awsprofile
+  set -gx AWS_PROFILE $argv[1]
+end
+
 set -U fish_greeting
 set -U devbox_no_prompt true
 set -Ux EDITOR nvim
