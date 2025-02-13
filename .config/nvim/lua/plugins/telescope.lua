@@ -1,3 +1,10 @@
+local custom_layout_config = {
+  anchor = "N",
+  prompt_position = "bottom",
+  height = 0.25,
+  width = 0.5,
+}
+
 return {
   'nvim-telescope/telescope.nvim',
   tag = '0.1.6',
@@ -9,15 +16,18 @@ return {
     require('telescope').setup({
       extensions = {
         ['ui-select'] = {
-          require('telescope.themes').get_cursor()
+          layout_strategy = "vertical",
+          layout_config = custom_layout_config
         }
       },
-      defaults = require('telescope.themes').get_cursor({
+      defaults = {
         preview = false,
         file_ignore_patterns = {
           "%.git/",
           "node_modules/"
         },
+        layout_strategy = "vertical",
+        layout_config = custom_layout_config,
         mappings = {
           n = {
             ["<leader>a"] = function(prompt_bufnr)
@@ -46,13 +56,16 @@ return {
             end
           }
         }
-      }),
+      },
       pickers = {
         find_files = {
           hidden = true
         },
         live_grep = {
-          preview = true
+          preview = true,
+          layout_config = {
+            height = 0.5,
+          }
         }
       }
     })
