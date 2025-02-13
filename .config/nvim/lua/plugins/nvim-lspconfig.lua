@@ -28,6 +28,8 @@ return {
       gopls = {},
       tsserver = {},
       terraformls = {},
+      yamlls = {},
+      helm_ls = {},
       lua_ls = {
         settings = {
           Lua = {
