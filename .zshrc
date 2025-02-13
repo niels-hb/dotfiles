@@ -72,7 +72,6 @@ zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  git-auto-fetch
   zsh-autosuggestions
   zsh-history-substring-search
   zsh-syntax-highlighting
