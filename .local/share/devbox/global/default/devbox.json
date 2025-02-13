@@ -4,6 +4,7 @@
     "awscli2@latest",
     "fish@latest",
     "fzf@latest",
+    "gh@latest",
     "k9s@latest",
     "kubectl@latest",
     "kubectx@latest",
