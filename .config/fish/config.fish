@@ -1,4 +1,4 @@
-eval "$(devbox global shellenv)"
+devbox global shellenv --init-hook | source
 
 if status is-interactive
 and not set -q TMUX
