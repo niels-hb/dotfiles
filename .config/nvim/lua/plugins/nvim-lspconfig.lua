@@ -30,6 +30,8 @@ return {
       terraformls = {},
       yamlls = {},
       helm_ls = {},
+      shellcheck = {},
+      bashls = {},
       lua_ls = {
         settings = {
           Lua = {
