@@ -45,6 +45,10 @@ vim.keymap.set('n', '<Esc>', '<cmd>noh<CR>')
 vim.keymap.set('n', "\"\"", "ciw\"<C-R>\"\"<Esc>")
 vim.keymap.set('n', "''", "ciw'<C-R>\"'<Esc>")
 
+vim.keymap.set('n', '<C-p>', '<CMD>bprev<CR>')
+vim.keymap.set('n', '<C-n>', '<CMD>bnext<CR>')
+vim.keymap.set('n', '<C-x>', '<CMD>bdelete<CR>')
+
 vim.api.nvim_create_autocmd('TextYankPost', {
   desc = 'Highlight when yanking (copying) text',
   group = vim.api.nvim_create_augroup('kickstart-highlight-yank', { clear = true }),
