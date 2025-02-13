@@ -10,6 +10,7 @@ $git_state\
 $git_metrics\
 $git_status\
 $fill\
+$nix_shell\
 $kubernetes\
 $aws
 $character"""
@@ -21,7 +22,7 @@ format = '[$symbol$profile]($style) '
 
 [git_branch]
 disabled = false
-symbol = " "
+symbol = ' '
 
 [git_commit]
 disabled = false
@@ -35,3 +36,9 @@ symbol = ' '
 disabled = false
 symbol = '⛵ '
 format = '[$symbol$cluster/$namespace](dimmed green) '
+
+[nix_shell]
+disabled = false
+symbol = ' '
+format = '[$symbol$state](bold blue) '
+impure_msg = 'devbox'
