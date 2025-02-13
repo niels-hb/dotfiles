@@ -14,7 +14,8 @@
     "ripgrep@latest",
     "sops@latest",
     "starship@latest",
-    "tmux@latest"
+    "tmux@latest",
+    "tmuxinator@latest"
   ],
   "shell": {
     "init_hook": [
