@@ -9,23 +9,14 @@ return {
     require('telescope').setup({
       extensions = {
         ['ui-select'] = {
-          require('telescope.themes').get_dropdown {
-            layout_config = {
-              anchor = "S",
-              prompt_position = "bottom"
-            },
-          }
+          require('telescope.themes').get_cursor()
         }
       },
-      defaults = require('telescope.themes').get_dropdown {
+      defaults = require('telescope.themes').get_cursor({
         preview = false,
         file_ignore_patterns = {
           "%.git/",
           "node_modules/"
-        },
-        layout_config = {
-          anchor = "S",
-          prompt_position = "bottom"
         },
         mappings = {
           n = {
@@ -55,7 +46,7 @@ return {
             end
           }
         }
-      },
+      }),
       pickers = {
         find_files = {
           hidden = true
