@@ -1,9 +1,8 @@
 eval "$(devbox global shellenv)"
 
 if status is-interactive
-    export ZELLIJ_AUTO_ATTACH=true
-    export ZELLIJ_AUTO_EXIT=true
-    eval (zellij setup --generate-auto-start fish | string collect)
+and not set -q TMUX
+  exec tmux new-session -As default
 end
 
 function awsprofile
