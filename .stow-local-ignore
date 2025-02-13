@@ -1,0 +1,5 @@
+.git
+.gitignore
+.devbox
+devbox.json
+devbox.lock
