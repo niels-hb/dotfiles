@@ -5,6 +5,7 @@
     "fish@latest",
     "fzf@latest",
     "gh@latest",
+    "gnupg@latest",
     "k9s@latest",
     "kubectl@latest",
     "kubectx@latest",
