@@ -18,7 +18,7 @@
     "sops@latest",
     "starship@latest",
     "tmux@latest",
-    "tmuxinator@latest"
+    "tmuxinator@2.0.3"
   ],
   "shell": {
     "init_hook": [
