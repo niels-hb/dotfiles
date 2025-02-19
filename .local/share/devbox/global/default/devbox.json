@@ -13,6 +13,7 @@
     "kubernetes-helm@latest",
     "minikube@latest",
     "neovim@latest",
+    "nodejs_22@latest",
     "pam-reattach@latest",
     "ripgrep@latest",
     "sops@latest",
