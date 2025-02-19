@@ -8,7 +8,7 @@
     "gnupg@latest",
     "k9s@latest",
     "kubectl@latest",
-    "kubectx@latest",
+    "kubectx@0.9.5",
     "kubelogin-oidc@latest",
     "kubernetes-helm@latest",
     "minikube@latest",
