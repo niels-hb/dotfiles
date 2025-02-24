@@ -8,6 +8,9 @@ vim.opt.signcolumn = "yes"
 
 vim.opt.showmode = false
 
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+
 vim.opt.undofile = true
 
 vim.opt.list = true
@@ -29,16 +32,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("plugins")
-
-vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
-vim.keymap.set('n', '<right>', '<cmd>echo "Use l to move!!"<CR>')
-vim.keymap.set('n', '<up>', '<cmd>echo "Use k to move!!"<CR>')
-vim.keymap.set('n', '<down>', '<cmd>echo "Use j to move!!"<CR>')
-
-vim.keymap.set('i', '<left>', '<cmd>echo "Use h to move!!"<CR>')
-vim.keymap.set('i', '<right>', '<cmd>echo "Use l to move!!"<CR>')
-vim.keymap.set('i', '<up>', '<cmd>echo "Use k to move!!"<CR>')
-vim.keymap.set('i', '<down>', '<cmd>echo "Use j to move!!"<CR>')
 
 vim.keymap.set('n', '<Esc>', '<cmd>noh<CR>')
 
