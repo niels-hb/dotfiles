@@ -3,3 +3,4 @@
 .devbox
 devbox.json
 devbox.lock
+renovate.json
