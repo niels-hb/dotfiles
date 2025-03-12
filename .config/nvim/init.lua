@@ -5,7 +5,6 @@ vim.opt.mouse = ""
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.signcolumn = "yes"
-vim.opt.updatetime = 1000
 
 vim.opt.showmode = false
 
