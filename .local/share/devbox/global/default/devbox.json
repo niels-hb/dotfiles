@@ -1,12 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.1/.schema/devbox.schema.json",
   "packages": [
-    "awscli2@2.24.22",
+    "awscli2@2.24.24",
     "fish@4.0.1",
     "fzf@0.60.3",
-    "gh@2.68.1",
+    "gh@2.69.0",
     "gnupg@2.4.7",
-    "k9s@0.40.5",
+    "k9s@0.40.10",
     "kubectl@1.32.2",
     "kubectx@0.9.5",
     "kubelogin-oidc@1.32.2",
