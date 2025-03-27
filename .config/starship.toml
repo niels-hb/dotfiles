@@ -1,6 +1,6 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
-add_newline = true
+add_newline = false
 
 format = """
 $directory\
@@ -9,11 +9,12 @@ $git_commit\
 $git_state\
 $git_metrics\
 $git_status\
-$fill\
+$character"""
+
+right_format = """
 $nix_shell\
 $kubernetes\
-$aws
-$character"""
+$aws"""
 
 [aws]
 disabled = false
