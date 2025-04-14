@@ -35,9 +35,6 @@ require("lazy").setup("plugins")
 
 vim.keymap.set('n', '<Esc>', '<cmd>noh<CR>')
 
-vim.keymap.set('n', "\"\"", "ciw\"<C-R>\"\"<Esc>")
-vim.keymap.set('n', "''", "ciw'<C-R>\"'<Esc>")
-
 vim.keymap.set('n', '<C-p>', '<CMD>bprev<CR>')
 vim.keymap.set('n', '<C-n>', '<CMD>bnext<CR>')
 vim.keymap.set('n', '<C-x>', '<CMD>bdelete<CR>')
