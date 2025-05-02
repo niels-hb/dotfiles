@@ -11,6 +11,10 @@ function awsprofile
   set -gx AWS_PROFILE $argv[1]
 end
 
+function kubeconfig
+  set -gx KUBECONFIG "$HOME/.kube/config.$argv[1]"
+end
+
 set -U fish_greeting
 set -U devbox_no_prompt true
 set -Ux EDITOR nvim
