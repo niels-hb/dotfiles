@@ -22,7 +22,7 @@
     "starship@1.23.0",
     "tmux@3.5",
     "tmuxinator@3.3.3",
-    "watch@latest"
+    "watch@3.3.17"
   ],
   "shell": {
     "init_hook": [
