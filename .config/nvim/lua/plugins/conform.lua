@@ -5,5 +5,8 @@ return {
       timeout_ms = 2000,
       lsp_format = "fallback",
     },
+    formatters_by_ft = {
+      go = { "goimports", "gofmt" },
+    },
   },
 }
