@@ -5,7 +5,7 @@
     "fish@4.0.2",
     "fzf@0.64.0",
     "gnupg@2.4.8",
-    "k9s@0.50.7",
+    "k9s@0.50.9",
     "kubectl@1.33.2",
     "kubectx@0.9.5",
     "kubelogin-oidc@1.33.0",
