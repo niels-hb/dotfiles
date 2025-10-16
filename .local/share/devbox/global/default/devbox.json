@@ -16,7 +16,7 @@
     "neovim@0.11.4",
     "nodejs_22@22.14.0",
     "ripgrep@14.1.1",
-    "sops@3.10.2",
+    "sops@3.11.0",
     "starship@1.23.0",
     "tmux@3.5",
     "tmuxinator@3.3.5",
