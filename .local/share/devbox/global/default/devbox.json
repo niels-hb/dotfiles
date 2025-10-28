@@ -23,8 +23,7 @@
     "terraform@1.13.3",
     "tmux@3.5",
     "tmuxinator@3.3.5",
-    "watch@3.3.17",
-    "zoxide@0.9.8"
+    "watch@3.3.17"
   ],
   "shell": {
     "init_hook": [
