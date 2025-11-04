@@ -20,7 +20,7 @@
     "ripgrep@14.1.1",
     "sops@3.11.0",
     "starship@1.23.0",
-    "terraform@1.13.3",
+    "terraform@1.13.4",
     "tmux@3.5",
     "tmuxinator@3.3.5",
     "watch@3.3.17"
