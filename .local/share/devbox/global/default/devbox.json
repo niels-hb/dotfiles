@@ -17,7 +17,7 @@
     "minikube@1.37.0",
     "neovim@0.11.4",
     "nodejs_22@22.14.0",
-    "ripgrep@14.1.1",
+    "ripgrep@15.1.0",
     "sops@3.11.0",
     "starship@1.24.0",
     "terraform@1.13.4",
