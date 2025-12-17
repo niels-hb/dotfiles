@@ -22,7 +22,7 @@
     "starship@1.24.1",
     "terraform@1.13.5",
     "tmux@3.5",
-    "tmuxinator@3.3.5",
+    "tmuxinator@3.3.7",
     "watch@3.3.17"
   ],
   "shell": {
