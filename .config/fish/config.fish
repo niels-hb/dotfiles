@@ -7,6 +7,8 @@ and not set -q VSCODE_INJECTION
   exec tmux new-session -As default
 end
 
+set -g fish_autosuggestion_enabled 0
+
 function awsprofile
   set -gx AWS_PROFILE $argv[1]
 end
