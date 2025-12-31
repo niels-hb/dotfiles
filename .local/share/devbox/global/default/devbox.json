@@ -12,7 +12,7 @@
     "kubectx@0.9.5",
     "kubelogin-oidc@1.35.0",
     "kubernetes-helm@3.19.1",
-    "kubernetes-helmPlugins.helm-diff@3.12.5",
+    "kubernetes-helmPlugins.helm-diff@3.13.1",
     "kubernetes-helmPlugins.helm-secrets@4.6.10",
     "minikube@1.37.0",
     "neovim@0.11.5",
