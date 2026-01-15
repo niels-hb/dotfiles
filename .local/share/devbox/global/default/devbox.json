@@ -10,7 +10,7 @@
     "kubectl-cnpg@1.28.0",
     "kubectl@1.35.0",
     "kubectx@0.9.5",
-    "kubelogin-oidc@1.35.0",
+    "kubelogin-oidc@1.35.2",
     "kubernetes-helm@3.19.1",
     "kubernetes-helmPlugins.helm-diff@3.12.5",
     "kubernetes-helmPlugins.helm-secrets@4.6.10",
