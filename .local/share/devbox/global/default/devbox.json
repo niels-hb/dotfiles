@@ -14,7 +14,7 @@
     "kubernetes-helm@3.19.1",
     "kubernetes-helmPlugins.helm-diff@3.13.1",
     "kubernetes-helmPlugins.helm-secrets@4.6.10",
-    "minikube@1.38.0",
+    "minikube@1.38.1",
     "neovim@0.11.6",
     "opencode@1.2.1",
     "ripgrep@15.1.0",
