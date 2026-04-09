@@ -7,7 +7,7 @@
     "gnupg@2.4.9",
     "helmfile@1.4.3",
     "k9s@0.50.18",
-    "kubectl-cnpg@1.28.1",
+    "kubectl-cnpg@1.29.0",
     "kubectl@1.35.3",
     "kubectx@0.11.0",
     "kubelogin-oidc@1.35.2",
