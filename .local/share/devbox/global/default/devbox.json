@@ -11,7 +11,7 @@
     "kubectl@1.35.4",
     "kubectx@0.11.0",
     "kubelogin-oidc@1.36.1",
-    "kubernetes-helm@3.20.1",
+    "kubernetes-helm@3.20.2",
     "kubernetes-helmPlugins.helm-diff@3.15.6",
     "kubernetes-helmPlugins.helm-secrets@4.6.10",
     "minikube@1.38.1",
