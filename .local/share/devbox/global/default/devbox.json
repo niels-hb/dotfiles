@@ -5,7 +5,7 @@
     "fish@4.6.0",
     "fzf@0.72.0",
     "gnupg@2.4.9",
-    "helmfile@1.4.4",
+    "helmfile@1.4.5",
     "k9s@0.50.18",
     "kubectl-cnpg@1.29.0",
     "kubectl@1.36.0",
