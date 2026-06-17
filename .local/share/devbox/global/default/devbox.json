@@ -21,7 +21,7 @@
     "ripgrep@15.1.0",
     "sops@3.13.1",
     "starship@1.25.1",
-    "terraform@1.15.5",
+    "terraform@1.15.6",
     "tmux@3.5",
     "watch@3.3.17"
   ],
