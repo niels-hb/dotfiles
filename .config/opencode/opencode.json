@@ -13,6 +13,9 @@
     "websearch": "allow",
     "todowrite": "allow",
     "explore": "allow",
-    "glob": "allow"
+    "glob": "allow",
+    "bash": {
+      "git *": "allow"
+    }
   }
 }
