@@ -1,1 +1,1 @@
-complete -c kubeconfig -f -a "(string replace -r '.*/config\.' '' -- (ls $HOME/.kube/config.*))"
+complete -c kubeconfig -f -a '(set -l files $HOME/.kube/config.*; string replace -r ".*/config\." "" -- $files)'

@@ -17,9 +17,9 @@ function kubeconfig
   set -gx KUBECONFIG "$HOME/.kube/config.$argv[1]"
 end
 
-set -U fish_greeting
-set -U devbox_no_prompt true
-set -Ux EDITOR nvim
+set -g fish_greeting
+set -g devbox_no_prompt true
+set -gx EDITOR nvim
 
 alias vi=nvim
 alias vim=nvim
@@ -31,11 +31,17 @@ end
 starship init fish | source
 enable_transience
 
-# brew completions
-if test -d (brew --prefix)"/share/fish/completions"
-    set -p fish_complete_path (brew --prefix)/share/fish/completions
-end
+fzf --fish | source
 
-if test -d (brew --prefix)"/share/fish/vendor_completions.d"
-    set -p fish_complete_path (brew --prefix)/share/fish/vendor_completions.d
+# brew completions
+if type -q brew
+    set -l brew_prefix (brew --prefix)
+
+    if test -d $brew_prefix/share/fish/completions
+        set -p fish_complete_path $brew_prefix/share/fish/completions
+    end
+
+    if test -d $brew_prefix/share/fish/vendor_completions.d
+        set -p fish_complete_path $brew_prefix/share/fish/vendor_completions.d
+    end
 end
