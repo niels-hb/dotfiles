@@ -23,6 +23,7 @@ set -Ux EDITOR nvim
 
 alias vi=nvim
 alias vim=nvim
+alias watch="watch --color"
 
 function starship_transient_prompt_func
   starship module character
