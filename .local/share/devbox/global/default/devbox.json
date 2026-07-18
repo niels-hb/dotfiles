@@ -19,7 +19,7 @@
     "neovim@0.12.4",
     "opencode@1.17.20",
     "ripgrep@15.1.0",
-    "sops@3.13.1",
+    "sops@3.13.2",
     "starship@1.26.0",
     "terraform@1.15.7",
     "tmux@3.5",
