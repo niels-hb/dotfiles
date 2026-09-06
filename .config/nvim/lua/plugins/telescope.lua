@@ -7,11 +7,12 @@ local custom_layout_config = {
 
 return {
   'nvim-telescope/telescope.nvim',
-  tag = '0.1.6',
+  version = '*',
   dependencies = {
     'nvim-lua/plenary.nvim',
     'nvim-telescope/telescope-ui-select.nvim',
-    'nvim-tree/nvim-web-devicons'
+    'nvim-tree/nvim-web-devicons',
+    { 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' },
   },
   config = function()
     require('telescope').setup({
