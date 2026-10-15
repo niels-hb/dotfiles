@@ -26,6 +26,6 @@
     "terraform@1.16.4",
     "tmux@3.5",
     "tree-sitter@0.26.11",
-    "watch@3.3.17"
+    "watch@4.0.7"
   ]
 }
