@@ -21,7 +21,7 @@
     "opencode@2.0.32",
     "ripgrep@15.2.0",
     "sops@3.13.3",
-    "starship@1.26.0",
+    "starship@1.27.0",
     "talosctl@1.14.2",
     "terraform@1.16.5",
     "tmux@3.5",
