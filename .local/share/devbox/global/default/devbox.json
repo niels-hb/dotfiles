@@ -18,7 +18,7 @@
     "kubernetes-helmPlugins.helm-secrets@4.7.6",
     "minikube@1.38.1",
     "neovim@0.12.6",
-    "opencode@2.0.32",
+    "opencode@2.1.1",
     "ripgrep@15.2.0",
     "sops@3.13.3",
     "starship@1.27.0",
