@@ -3,7 +3,7 @@
   "packages": [
     "awscli2@2.36.31",
     "fish@4.9.3",
-    "fluxcd@2.9.6",
+    "fluxcd@2.10.0",
     "fzf@0.74.5",
     "gnupg@2.4.9",
     "helmfile@1.8.0",
